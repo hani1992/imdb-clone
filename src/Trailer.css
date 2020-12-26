@@ -1,0 +1,106 @@
+
+.trailer{
+    display: flex;
+    height: 67vh;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.trailer__left{
+    flex: 0.7;
+}
+
+.trailer__right{
+    flex: 0.3;
+    background-color: #121212;
+    padding: 1.3rem;
+}
+
+.trailer__right h5{
+    margin: 0;
+}
+
+.trailer__watchButton{
+
+    cursor: pointer;
+    color: rgb(87,153,239);
+    outline:none;
+    border:none;
+    font-weight: 700;
+    border-radius: 0.2vw;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    margin-right: 1rem;
+    padding-top: 0.5rem;
+    background-color:rgba(255,255,255, 0.08);
+    padding-bottom: 0.5rem;
+}
+.trailer__watchButton:hover{
+    background-color: #3C3C3C;
+    transition: all 0.2s;
+}
+
+.trailer__backButton{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    color:white;
+    outline:none;
+    border:none;
+    font-weight: 700;
+    border-radius: 0.2vw;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+    padding-top: 0.7rem;
+    background-color:transparent;
+    padding-bottom: 0.5rem;
+    width: 80px;
+    justify-content: center;
+    margin-top: 1rem;
+}
+.trailer__backButton>.MuiSvgIcon-root{
+    color: #3C3C3C;
+    font-weight: 800;
+}
+.trailer__backButton:hover{
+    background-color: #3C3C3C;
+    transition: all 0.2s;
+}
+.trailer__backButton:hover>.MuiSvgIcon-root{
+    color:white;
+}
+
+.trailer__info{
+    display: flex;
+    /* justify-content: space-around; */
+    padding-top: 0.5rem;
+    align-items: flex-start;
+}
+
+.trailer__info>img{
+    width: 100px;
+    object-fit: contain;
+}
+
+.trailer__info p{
+    color: #B3B3B3;
+    font-size: 14px;
+}
+
+.trailer__movieInfo{
+margin-left: 1rem;
+
+}
+
+.trailer__right hr{
+    margin-top: 1rem;
+    border-color: #414141;
+}
+
+.trailer__desc p {
+    font-size: 0.8rem;
+    font-weight: 200;
+    line-height: 1.5;
+}

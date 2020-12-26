@@ -1,0 +1,23 @@
+.body{
+    padding-left: 13%;
+    padding-right: 13%;
+}
+
+.body__title h1{
+    color:#F5C518;
+}
+.body__container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.body__detail>img{
+    width: 350px;
+    padding-right: 15px;
+}
+
+.body__detail>p:hover{
+    color: #B3B3B3;
+    cursor: pointer;
+}
